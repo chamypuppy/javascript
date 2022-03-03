@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Chrome 클론코딩</title>
+</head>
+<body>
+
+  <h2 id="clock">00:00:00</h2>
+
+  <form id="login-form" class="hidden">
+    <input type="text" 
+    required 
+    maxlength="15"
+    placeholder="이름을 입력해주세요">
+    <input type="submit" value="로그인">
+  </form>
+
+  
+    <div class="sign-in">
+      <h2 id="greeting" class="hidden"></h2>
+
+      <div class="line">
+    <form id="log-out" class="hidden">
+      <input type="submit" value="로그아웃">
+    </form>
+      </div>
+    <!--  <div id="log-out" class="hidden"> --> <!-- span은 가운데 정렬이 안되고 div는 된다?! 왜지?!! -->
+        <!-- <input type="submit" value="로그아웃">
+      </div>  -->
+    </div>
+
+  
+  <form id="todo-form">
+    <input type="text" placeholder="오늘의 할 일을 입력해주세요" required>
+  </form>
+  <ul id="todo-list"></ul>
+
+  <div class="dessert">
+    <span></span>
+    <br><span></span>
+  </div>
+
+  <!-- <script src="js/greeting.js"></script> -->
+  <script src="js/greeting-log-out.js"></script>
+  <script src="js/dessert.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/clock.js"></script>
+  <!-- <script src="js/todo.js"></script> -->
+  <script src="todo---.js"></script>
+</body>
+
+</html>

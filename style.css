@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5em;
+}
+
+/* 로그인 하기 greeting.js */
+
+#login-form {
+  text-align: center;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+.sign-in {
+  text-align: center;
+}
+
+#greeting {
+  display: inline-block;
+}
+
+
+.line {
+  display: inline-block;
+  vertical-align: 9px;
+}
+
+
+
+
+/* .log-out {
+  text-align: right;
+} */
+
+/* 실시간 시계 clock.js */
+
+#clock {
+  text-align: center;
+}
+
+
+/* 랜덤 디저트 추천 dessert.js */
+
+.dessert {
+  text-align: center;
+}
+
+.dessert span:last-child {
+  font-size: 0.9em;
+  /* font-size: 20px; */
+}
+
+/* 랜덤 배경 이미지 background.js */
+ img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 80%;
+}
+
+/* to do list */
+
+#todo-form {
+  text-align: center;
+}
+
+#todo-list {
+  text-align: center;
+  list-style : none;
+}
