@@ -1,0 +1,16 @@
+const date = new Date()
+const hour = date.getHours()
+
+switch (true) {
+  case hour < 11:
+    alert('아침 먹을 시간입니다.')
+    break
+
+  case hour < 15:
+    alert('점심 먹을 시간입니다.')
+    break
+
+  default:
+    alert('저녁 먹을 시간입니다.')
+    break
+}
